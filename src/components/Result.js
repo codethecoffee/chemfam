@@ -10,7 +10,7 @@ class Result extends Component {
     const progress = answersRight / total;
 
     const options = {
-      strokeWidth: 5,
+      strokeWidth: 20,
       color: "green",
       trailColor: "#D3D3D3"
     };
@@ -44,7 +44,7 @@ class Result extends Component {
           <br />
           <div>
             You sent <strong>{this.props.quizResult}</strong> out of the{" "}
-            {this.props.total} elements to the right family!
+            {this.props.total} elements to the right family! Home sweet home.
           </div>
         </ReactCSSTransitionGroup>
       </center>
