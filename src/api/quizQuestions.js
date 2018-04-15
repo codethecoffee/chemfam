@@ -57,11 +57,12 @@ var quizQuestions = [
   },
   {
     name: "Iron",
-    location: "Found being smelted by an Egyptian at 5000 BC",
+    location: "Found being smelted by an Egyptian at 3000 BC",
     question:
-      "I've accidentally electrocuted or burned a lot of friends who try to touch me. Sorry, it wasn't intentional, I swear.",
+      "Whenever somebody needs a tool though, I can easily shape myself into whatever they need: hammers, screws, wrenches, screwdrivers, and so on. I really hate the rain though; if I stand too long in it my skin starts rusting, and it hurts a lot.",
     image: "https://www.dropbox.com/s/otawq9jfobh8ohl/iron.png?raw=1",
-    hint: "Metals",
+    hint:
+      "There is a family of metals that isn't explosively reactive. Metals from this family can be hammered or bent into shapes easily, and are therefore used ubiquitously in various tools in everyday life.",
     answers: [
       {
         type: "false1",
@@ -77,7 +78,7 @@ var quizQuestions = [
       },
       {
         type: "false4",
-        content: "Noble gases"
+        content: "Alkaline earth metals"
       }
     ]
   }

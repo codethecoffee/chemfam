@@ -2,7 +2,7 @@
   "name": "react-quiz",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://chemfam.com",
+  "homepage": "http://sujunglee.github.io/chemfam",
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "react-scripts": "0.2.1"
