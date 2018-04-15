@@ -1,6 +1,7 @@
 var quizQuestions = [
   {
     name: "Argon",
+    symbol: "Ar",
     location: "Found in a lightbulb in 1894",
     question:
       "Hi, I'm Argon. I'm super antisocial. Chemists have desperately tried to force me to make friends, so sometimes I hang out with hydrogen, nitrogen, carbon, and oxygen...but those are extremely rare cases. Usually I like to just stick by myself; it takes too much energy to bond with other elements. It would be an understatement to call me an introvert; I'm more of a social recluse.",
@@ -28,6 +29,7 @@ var quizQuestions = [
   },
   {
     name: "Sodium",
+    symbol: "Na",
     location: "Found hugging a salt shaker in 1807",
     question:
       "When I was in kindergarten, my bully threw me into a body of water for having a stupid name (Sodium). I exploded into flames in his face. Don't mess with me. Chlorine is my best friend, though. We like to bond and become table salt so that nobody is stuck with bland food (NaCl).",

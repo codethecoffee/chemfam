@@ -32,6 +32,7 @@ function Quiz(props) {
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question
           name={props.name}
+          symbol={props.symbol}
           location={props.location}
           content={props.question}
           image={props.image}

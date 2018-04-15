@@ -87,7 +87,7 @@ class Question extends React.Component {
                   aria-label="Element symbol"
                   className={this.props.classes.avatar}
                 >
-                  Ar
+                  {this.props.name.substring(0, 1)}
                 </Avatar>
               }
               title={this.props.name}

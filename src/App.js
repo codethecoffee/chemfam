@@ -14,6 +14,7 @@ class App extends Component {
       counter: 0,
       questionId: 1,
       name: "",
+      symbol: "",
       location: "",
       question: "",
       image: "",
@@ -81,10 +82,19 @@ class App extends Component {
       [answer]: { $apply: currentValue => currentValue + 1 }
     });
 
-    this.setState({
-      answersCount: updatedAnswersCount,
-      answer: answer
-    });
+    this.setState(
+      {
+        answersCount: updatedAnswersCount,
+        answer: answer
+      },
+      () => {
+        console.log(
+          "updated state value",
+          this.state.answersCount,
+          this.state.answer
+        );
+      }
+    );
   }
 
   setNextQuestion() {
@@ -95,6 +105,7 @@ class App extends Component {
       counter: counter,
       questionId: questionId,
       name: quizQuestions[counter].name,
+      symbol: quizQuestions[counter].symbol,
       location: quizQuestions[counter].location,
       question: quizQuestions[counter].question,
       image: quizQuestions[counter].image,
@@ -130,6 +141,7 @@ class App extends Component {
         answerOptions={this.state.answerOptions}
         questionId={this.state.questionId}
         name={this.state.name}
+        symbol={this.state.symbol}
         location={this.state.location}
         question={this.state.question}
         image={this.state.image}
