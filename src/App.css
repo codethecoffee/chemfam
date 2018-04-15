@@ -17,6 +17,21 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.instruction-header {
+  font-family: "Raleway";
+  font-weight: lighter;
+  font-size: 30px;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+}
+
+.instruction-text {
+  font-family: "Raleway";
+  font-weight: lighter;
+  font-size: 20px;
+}
+
 .button {
   position: relative;
   top: -15px;

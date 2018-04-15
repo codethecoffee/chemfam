@@ -170,40 +170,48 @@ class App extends Component {
             basic
             size="huge"
           >
-            <Modal.Header>How to Play</Modal.Header>
+            <Modal.Header>
+              <div className="instruction-header">How to Play</div>
+            </Modal.Header>
             <Modal.Content>
               <Modal.Description>
-                <p>
-                  You live in Chemtopia, a world where chemistry elements are
-                  people just like you and me; they have unique looks,
-                  personalities, and pet peeves (note: these traits are based on
-                  the unique chemical and physical properties of each element).
-                </p>
-                <p>
-                  <b>
-                    There is an orphan crisis in Chemtopia, and you're a
-                    chemistry major hired straight out of undergrad by the
-                    government to help these orphans find their families.
-                  </b>
-                </p>
-                <p>
-                  Chemtopia is divided into several major families: the alkali
-                  metals, alkaline earth metals, halogens, noble gases, and
-                  transition metals. Although each element is one of a kind,
-                  there are still general trends in the personalities and looks
-                  for each family. This is all you have at your disposal:
-                </p>
-                <p>1) A photo of the orphan</p>
-                <p>2) The name of the orphan </p>
-                <p>
-                  3) A small snippet the orphan wrote about himself or herself.
-                </p>
-                <p>
-                  Based on those three pieces of information, you must correctly
-                  determine which family each orphan belongs to. Good luck! The
-                  future of these orphans depends on you; you wouldn't want to
-                  accidentally send an alkali metal orphan to a halogen family.
-                </p>
+                <div className="instruction-text">
+                  <p>
+                    You live in Chemtopia, a world where chemistry elements are
+                    people just like you and me; they have unique looks,
+                    personalities, and pet peeves (note: these traits are based
+                    on the unique chemical and physical properties of each
+                    element).
+                  </p>
+                  <p>
+                    <b>
+                      There is an orphan crisis in Chemtopia, and you're a
+                      chemistry major hired straight out of undergrad by the
+                      government to help these orphans find their families.
+                    </b>
+                  </p>
+                  <p>
+                    Chemtopia is divided into several major families: the alkali
+                    metals, alkaline earth metals, halogens, noble gases, and
+                    transition metals. Although each element is one of a kind,
+                    there are still general trends in the personalities and
+                    looks for each family. This is all you have at your
+                    disposal:
+                  </p>
+                  <p>1) A photo of the orphan</p>
+                  <p>2) The name of the orphan </p>
+                  <p>
+                    3) A small snippet the orphan wrote about himself or
+                    herself.
+                  </p>
+                  <p>
+                    Based on those three pieces of information, you must
+                    correctly determine which family each orphan belongs to.
+                    Good luck! The future of these orphans depends on you; you
+                    wouldn't want to accidentally send an alkali metal orphan to
+                    a halogen family.
+                  </p>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
