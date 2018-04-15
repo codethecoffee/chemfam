@@ -1,5 +1,7 @@
 var quizQuestions = [
   {
+    name: "Argon",
+    location: "Found in a lightbulb in 1894",
     question:
       "Hi, I'm Argon. I'm super antisocial. Chemists have desperately tried to force me to make friends, so sometimes I hang out with hydrogen, nitrogen, carbon, and oxygen...but those are extremely rare cases. Usually I like to just stick by myself; it takes too much energy to bond with other elements. It would be an understatement to call me an introvert; I'm more of a social recluse.",
     image: "https://www.dropbox.com/s/cu5ktqiiby919tm/argon.png?raw=1",

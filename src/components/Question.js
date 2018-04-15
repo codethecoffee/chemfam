@@ -76,7 +76,7 @@ class Question extends React.Component {
   render() {
     return (
       <Grid container>
-        <Grid item xs={5}>
+        <Grid item xs={6}>
           <br />
           <br />
 
@@ -90,8 +90,8 @@ class Question extends React.Component {
                   Ar
                 </Avatar>
               }
-              title="Argon"
-              subheader="Found in a lightbulb in 1894"
+              title={this.props.name}
+              subheader={this.props.location}
             />
             <CardContent>
               <Typography component="p">

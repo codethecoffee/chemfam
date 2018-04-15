@@ -13,6 +13,8 @@ class App extends Component {
     this.state = {
       counter: 0,
       questionId: 1,
+      name: "",
+      location: "",
       question: "",
       image: "",
       hint: "",
@@ -35,6 +37,8 @@ class App extends Component {
       this.shuffleArray(question.answers)
     );
     this.setState({
+      name: quizQuestions[0].name,
+      location: quizQuestions[0].location,
       question: quizQuestions[0].question,
       image: quizQuestions[0].image,
       hint: quizQuestions[0].hint,
@@ -90,6 +94,8 @@ class App extends Component {
     this.setState({
       counter: counter,
       questionId: questionId,
+      name: quizQuestions[counter].name,
+      location: quizQuestions[counter].location,
       question: quizQuestions[counter].question,
       image: quizQuestions[counter].image,
       hint: quizQuestions[counter].hint,
@@ -123,6 +129,8 @@ class App extends Component {
         answer={this.state.answer}
         answerOptions={this.state.answerOptions}
         questionId={this.state.questionId}
+        name={this.state.name}
+        location={this.state.location}
         question={this.state.question}
         image={this.state.image}
         hint={this.state.hint}

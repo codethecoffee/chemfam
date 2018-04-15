@@ -31,6 +31,8 @@ function Quiz(props) {
       <div key={props.questionId}>
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question
+          name={props.name}
+          location={props.location}
           content={props.question}
           image={props.image}
           hint={props.hint}
