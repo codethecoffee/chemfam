@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import ProgressBar, { Circle } from "react-progressbar.js";
 import Typography from "material-ui/Typography";
+import { Button, Header, Icon, Modal } from "semantic-ui-react";
+
+import "../App.css";
 import "../index.css";
 
 class Result extends Component {
@@ -47,6 +50,17 @@ class Result extends Component {
             You sent <strong>{this.props.quizResult}</strong> out of the{" "}
             {this.props.total} elements to the right family! Home sweet home.
           </div>
+          <br />
+          <br />
+          <Button
+            href="http://www.sujunglee.com/chemfam/"
+            className="button"
+            inverted
+            color="blue"
+            size="huge"
+          >
+            Replay
+          </Button>
         </ReactCSSTransitionGroup>
       </center>
     );
