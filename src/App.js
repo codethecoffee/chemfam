@@ -120,18 +120,13 @@ class App extends Component {
     const answersCountKeys = Object.keys(answersCount);
     const answersCountValues = answersCountKeys.map(key => answersCount[key]);
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
-
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
 
   setResults(result) {
-    if (result.length === 1) {
-      this.setState({ result: result[0] });
-    } else {
-      this.setState({
-        result: "Most of the elements have been adopted by the wrong family."
-      });
-    }
+    console.log("Number of trues:", this.state.answersCount.true);
+
+    this.setState({ result: this.state.answersCount.true.toString() });
   }
 
   renderQuiz() {

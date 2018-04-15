@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import React from "react";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
 function Result(props) {
-
   return (
     <ReactCSSTransitionGroup
       className="container result"
@@ -14,15 +13,15 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        You prefer <strong>{props.quizResult}</strong>!
+        You sent <strong>{props.quizResult}</strong> of the elements to the
+        right family!
       </div>
     </ReactCSSTransitionGroup>
   );
-
 }
 
 Result.propTypes = {
-  quizResult: React.PropTypes.string.isRequired,
+  quizResult: React.PropTypes.string.isRequired
 };
 
 export default Result;
