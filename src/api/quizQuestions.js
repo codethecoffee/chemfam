@@ -1,8 +1,10 @@
 var quizQuestions = [
   {
     question:
-      "Hi, I'm Argon. I'm super antisocial, so much in fact that there are only 4 compounds that I'm a part of.",
+      "Hi, I'm Argon. I'm super antisocial. Chemists have desperately tried to force me to make friends, so sometimes I hang out with hydrogen, nitrogen, carbon, and oxygen...but those are extremely rare cases. Usually I like to just stick by myself; it takes too much energy to bond with other elements.",
     image: "https://www.dropbox.com/s/cu5ktqiiby919tm/argon.png?raw=1",
+    hint:
+      "There's a family that's notorious for not socializing with any of the other elements (including each other!)",
     answers: [
       {
         type: "false1",
@@ -25,6 +27,7 @@ var quizQuestions = [
   // {
   //   question:
   //     "When I was in kindergarten, my bully threw me into a body of water for having a stupid name (Sodium). I exploded into flames in his face. Don't mess with me. Chlorine is my best friend, though. We like to bond and become table salt so that nobody is stuck with bland food (NaCl).",
+  //   image: "https://www.dropbox.com/s/w9z9x0y03pk7dfa/sodium.png?raw=1",
   //   answers: [
   //     {
   //       type: "true",
@@ -43,7 +46,7 @@ var quizQuestions = [
   //       content: "Noble gases"
   //     }
   //   ]
-  // },
+  // }
   // {
   //   question:
   //     "I've accidentally electrocuted or burned a lot of friends who try to touch me. Sorry, it wasn't intentional, I swear.",
