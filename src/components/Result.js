@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import ProgressBar, { Circle } from "react-progressbar.js";
 import Typography from "material-ui/Typography";
+import "../index.css";
 
 class Result extends Component {
   render() {
@@ -11,8 +12,8 @@ class Result extends Component {
 
     const options = {
       strokeWidth: 20,
-      color: "green",
-      trailColor: "#D3D3D3"
+      color: "#064273",
+      trailColor: "#def3f6"
     };
 
     const containerStyle = {
@@ -20,7 +21,7 @@ class Result extends Component {
       height: "200px"
     };
     return (
-      <center>
+      <center className="result-text">
         <ReactCSSTransitionGroup
           className="container result"
           component="div"
@@ -31,7 +32,7 @@ class Result extends Component {
           transitionAppearTimeout={500}
         >
           <Typography>
-            <h2>
+            <h2 className="result-text">
               {progress * 100}% success rate
             </h2>
           </Typography>
