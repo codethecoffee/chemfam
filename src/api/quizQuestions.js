@@ -54,29 +54,33 @@ var quizQuestions = [
         content: "Noble gases"
       }
     ]
+  },
+  {
+    name: "Iron",
+    location: "Found being smelted by an Egyptian at 5000 BC",
+    question:
+      "I've accidentally electrocuted or burned a lot of friends who try to touch me. Sorry, it wasn't intentional, I swear.",
+    image: "https://www.dropbox.com/s/otawq9jfobh8ohl/iron.png?raw=1",
+    hint: "Metals",
+    answers: [
+      {
+        type: "false1",
+        content: "Alkali metals"
+      },
+      {
+        type: "true",
+        content: "Transition metals"
+      },
+      {
+        type: "false3",
+        content: "Halogens"
+      },
+      {
+        type: "false4",
+        content: "Noble gases"
+      }
+    ]
   }
-  // {
-  //   question:
-  //     "I've accidentally electrocuted or burned a lot of friends who try to touch me. Sorry, it wasn't intentional, I swear.",
-  //   answers: [
-  //     {
-  //       type: "false1",
-  //       content: "Alkali metals"
-  //     },
-  //     {
-  //       type: "true",
-  //       content: "Transition metals"
-  //     },
-  //     {
-  //       type: "false3",
-  //       content: "Halogens"
-  //     },
-  //     {
-  //       type: "false4",
-  //       content: "Noble gases"
-  //     }
-  //   ]
-  // },
   // {
   //   question:
   //     "Engineers really like me because they can control exactly when electricity will run through me or not. I heard that a group of them named an entire place after me: Silicon Valley. It's a bit obsessive, actually.",

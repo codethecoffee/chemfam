@@ -201,9 +201,8 @@ class App extends Component {
                 <p>
                   Based on those three pieces of information, you must correctly
                   determine which family each orphan belongs to. Good luck! The
-                  future of these orphans depends on you; who knows what will
-                  happen if an alkali metal orphan is accidentally sent to a
-                  halogen family.
+                  future of these orphans depends on you; you wouldn't want to
+                  accidentally send an alkali metal orphan to a halogen family.
                 </p>
               </Modal.Description>
             </Modal.Content>
