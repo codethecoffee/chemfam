@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
 function AnswerOption(props) {
-
   return (
     <li className="answerOption">
       <input
@@ -19,7 +18,6 @@ function AnswerOption(props) {
       </label>
     </li>
   );
-
 }
 
 AnswerOption.propTypes = {
