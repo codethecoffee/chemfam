@@ -3,7 +3,7 @@ import update from "react-addons-update";
 import quizQuestions from "./api/quizQuestions";
 import Quiz from "./components/Quiz";
 import Result from "./components/Result";
-import logo from "./svg/logo.svg";
+import logo from "./svg/chem.gif";
 import "./App.css";
 
 class App extends Component {
@@ -158,7 +158,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2 className="App-header-text"> Chem Fam</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
