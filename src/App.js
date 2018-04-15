@@ -148,7 +148,9 @@ class App extends Component {
   }
 
   renderResult() {
-    return <Result quizResult={this.state.result} />;
+    return (
+      <Result quizResult={this.state.result} total={this.state.counter + 1} />
+    );
   }
 
   render() {

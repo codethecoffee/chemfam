@@ -12,7 +12,9 @@
     "react": "^15.3.0",
     "react-addons-css-transition-group": "^15.3.0",
     "react-addons-update": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "react-progressbar.js": "^0.2.0",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
