@@ -81,29 +81,62 @@ var quizQuestions = [
         content: "Alkaline earth metals"
       }
     ]
+  },
+  {
+    name: "Silicon",
+    location: "Found in a beaker in 1824",
+    question:
+      "Engineers really like me because they can control exactly when electricity will run through me or not. I heard that a group of them named an entire place after me: Silicon Valley. It's a bit obsessive, actually.",
+    image: "https://www.dropbox.com/s/3cb3v6nsji1xnuc/silicon.png?raw=1",
+    hint:
+      "There is a family of elements that have a combination of metallic and non-metallic characteristics.",
+    answers: [
+      {
+        type: "false1",
+        content: "Alkali metals"
+      },
+      {
+        type: "false2",
+        content: "Transition metals"
+      },
+      {
+        type: "false3",
+        content: "Halogens"
+      },
+      {
+        type: "true",
+        content: "Metalloid"
+      }
+    ]
+  },
+  {
+    name: "Cadmium",
+    location:
+      "Found wandering in some zinc oxide by Friedrich Stromeyer in 1817",
+    question:
+      "You can usually find me hanging out with nickel in nickel-cadmium batteries. I feel a bit abandoned because I'm being gradually replaced by nickel metral hydride batteries; ",
+    image: "https://www.dropbox.com/s/hgom6tm599gzrls/cadmium.png?raw=1",
+    hint:
+      "What's a family of metals that isn't immediately explosive, but has lots of practical applications in everyday life?",
+    answers: [
+      {
+        type: "false1",
+        content: "Alkali metals"
+      },
+      {
+        type: "true",
+        content: "Transition metals"
+      },
+      {
+        type: "false2",
+        content: "Alkaline earth metals"
+      },
+      {
+        type: "false3",
+        content: "Metalloid"
+      }
+    ]
   }
-  // {
-  //   question:
-  //     "Engineers really like me because they can control exactly when electricity will run through me or not. I heard that a group of them named an entire place after me: Silicon Valley. It's a bit obsessive, actually.",
-  //   answers: [
-  //     {
-  //       type: "false1",
-  //       content: "Alkali metals"
-  //     },
-  //     {
-  //       type: "false2",
-  //       content: "Transition metals"
-  //     },
-  //     {
-  //       type: "false3",
-  //       content: "Halogens"
-  //     },
-  //     {
-  //       type: "true",
-  //       content: "Metalloid"
-  //     }
-  //   ]
-  // }
 ];
 
 export default quizQuestions;
