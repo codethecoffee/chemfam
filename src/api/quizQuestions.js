@@ -114,7 +114,7 @@ var quizQuestions = [
     location:
       "Found wandering in some zinc oxide by Friedrich Stromeyer in 1817",
     question:
-      "You can usually find me hanging out with nickel in nickel-cadmium batteries. I feel a bit abandoned because I'm being gradually replaced by nickel metral hydride batteries; ",
+      "You can usually find me hanging out with nickel in nickel-cadmium batteries. I feel a bit abandoned because I'm being gradually replaced by nickel metral hydride batteries; it turns out that I'm poisonous and carcinogenic to other people. I accidentally made some metal works building the Severn Road Bridge super sick. Whoops.",
     image: "https://www.dropbox.com/s/hgom6tm599gzrls/cadmium.png?raw=1",
     hint:
       "What's a family of metals that isn't immediately explosive, but has lots of practical applications in everyday life?",

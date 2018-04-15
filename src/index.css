@@ -49,6 +49,12 @@ body {
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
 }
 
+.orphan-name {
+  font-family: "Raleway";
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid #eee;
@@ -75,9 +81,10 @@ body {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 1.5rem 2.5rem 1.5rem 5rem;
-  font-size: 16px;
+  padding: 1.5rem 2.5rem 1.5rem 6rem;
+  font-size: 20px;
   line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {
@@ -100,6 +107,12 @@ body {
   background: #8bc53f url(./svg/icon-check.svg) no-repeat;
   background-size: 27px;
   border-color: #8bc53f;
+}
+
+.question-card {
+  font-family: "Indie Flower";
+  font-size: 22px;
+  line-height: 110%;
 }
 
 /* Animation */

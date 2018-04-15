@@ -17,6 +17,7 @@ import Button from "material-ui/Button";
 import Popover from "material-ui/Popover";
 import Typography from "material-ui/Typography";
 import Icon from "material-ui/Icon";
+import "../index.css";
 
 const styles = theme => ({
   button: {
@@ -79,8 +80,7 @@ class Question extends React.Component {
         <Grid item xs={6}>
           <br />
           <br />
-
-          <Card className={this.props.classes.card}>
+          <Card>
             <CardHeader
               avatar={
                 <Avatar
@@ -95,7 +95,9 @@ class Question extends React.Component {
             />
             <CardContent>
               <Typography component="p">
-                {this.props.content}
+                <div className="question-card">
+                  {this.props.content}
+                </div>
               </Typography>
             </CardContent>
             <CardActions
