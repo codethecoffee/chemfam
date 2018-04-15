@@ -5,6 +5,7 @@ import Quiz from "./components/Quiz";
 import Result from "./components/Result";
 import logo from "./svg/chem.gif";
 import "./App.css";
+import { Button, Header, Icon, Modal } from "semantic-ui-react";
 
 class App extends Component {
   constructor(props) {
@@ -159,6 +160,65 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2 className="App-header-text"> Chem Fam</h2>
+
+          <Modal
+            trigger={
+              <Button className="button" inverted color="blue" size="huge">
+                How to Play
+              </Button>
+            }
+            basic
+            size="huge"
+          >
+            <Modal.Header>How to Play</Modal.Header>
+            <Modal.Content>
+              <Modal.Description>
+                <p>
+                  You live in Chemtopia, a world where chemistry elements are
+                  people just like you and me; they have unique looks,
+                  personalities, and pet peeves (note: these traits are based on
+                  the unique chemical and physical properties of each element).
+                </p>
+                <p>
+                  <b>
+                    There is an orphan crisis in Chemtopia, and you're a
+                    chemistry major hired straight out of undergrad by the
+                    government to help these orphans find their families.
+                  </b>
+                </p>
+                <p>
+                  Chemtopia is divided into several major families: the alkali
+                  metals, alkaline earth metals, halogens, noble gases, and
+                  transition metals. Although each element is one of a kind,
+                  there are still general trends in the personalities and looks
+                  for each family. This is all you have at your disposal:
+                </p>
+                <p>1) A photo of the orphan</p>
+                <p>2) The name of the orphan </p>
+                <p>
+                  3) A small snippet the orphan wrote about himself or herself.
+                </p>
+                <p>
+                  Based on those three pieces of information, you must correctly
+                  determine which family each orphan belongs to. Good luck! The
+                  future of these orphans depends on you; who knows what will
+                  happen if an alkali metal orphan is accidentally sent to a
+                  halogen family.
+                </p>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
+
+          <Button
+            href="http://www.justlovechem.com/"
+            target="_blank"
+            className="button"
+            inverted
+            color="blue"
+            size="huge"
+          >
+            The Fam
+          </Button>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

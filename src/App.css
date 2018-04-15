@@ -4,17 +4,22 @@
 
 .App-header {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   color: black;
   text-align: center;
 }
 
 .App-header-text {
   position: relative;
-  top: -45px;
+  top: -10px;
   font-size: 3rem;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
+}
+
+.button {
+  position: relative;
+  top: -15px;
 }
 
 .App-intro {
