@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   background: #fff;
   border-radius: 3px;
+  font-family: "Montserrat"
 }
 
 @media (min-width: 769px) {
@@ -26,6 +27,7 @@ body {
 }
 
 /* Result Component */
+
 .result {
   padding: 1.5rem 2.5rem;
 }
@@ -36,6 +38,7 @@ body {
 }
 
 /* Quiz Component */
+
 .answerOptions {
   margin: 0;
   padding: 0;
@@ -43,12 +46,14 @@ body {
 }
 
 /* QuestionCount Component */
+
 .questionCount {
   padding: 1.5rem 2.5rem 0;
   font-size: 14px;
 }
 
 /* Question Component */
+
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
@@ -61,6 +66,7 @@ body {
 }
 
 /* AnswerOption Component */
+
 .answerOption {
   border-top: 1px solid #eee;
 }
@@ -75,8 +81,7 @@ body {
   opacity: 0;
 }
 
-.radioCustomButton,
-.radioCustomLabel {
+.radioCustomButton, .radioCustomLabel {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
@@ -92,7 +97,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.radioCustomButton ~ .radioCustomLabel:before {
+.radioCustomButton~.radioCustomLabel:before {
   position: absolute;
   top: 20px;
   left: 38px;
@@ -107,7 +112,7 @@ body {
   transition: all 0.3s;
 }
 
-.radioCustomButton:checked ~ .radioCustomLabel:before {
+.radioCustomButton:checked~.radioCustomLabel:before {
   content: '';
   background: #8bc53f url(./svg/icon-check.svg) no-repeat;
   background-size: 27px;
@@ -121,6 +126,7 @@ body {
 }
 
 /* Animation */
+
 .fade-enter {
   opacity: 0;
 }

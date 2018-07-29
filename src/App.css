@@ -10,9 +10,7 @@
 }
 
 .App-header-text {
-  position: relative;
-  top: -10px;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
 }

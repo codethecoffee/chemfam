@@ -5,6 +5,7 @@ import Quiz from "./components/Quiz";
 import Result from "./components/Result";
 import logo from "./svg/chem.gif";
 import "./App.css";
+import "./index.css";
 import { Button, Header, Icon, Modal } from "semantic-ui-react";
 
 class App extends Component {
@@ -156,7 +157,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2 className="App-header-text"> Chem Fam</h2>
